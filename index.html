@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="wether.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your location" class="input-box">
+                <button class="fa-solid fa-magnifying-glass" id="search"></button>
+            </div>
+        </div>
+
+        <div class="location-not-found">
+            <h1>Sorry, Location not found!!!</h1>
+            <img src="404.png" alt="">
+        </div>
+
+        <div class="weather-body">
+            <img src="cloud.png" alt="cloudy" class="cloudy">
+            <div class="temp">
+                <p class="temprature">10°C</p>
+                <p class="description">cloudy</p>
+            </div>
+
+            <div class="weather-detail">
+                <div class="humidity">
+                    <i class="fa-solid fa-fire-flame-simple"></i>
+                    <div class="text">
+                        <span class="humidity1">45%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span class="wind2">12km/h</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="wether.js"></script>
+</body>
+</html>
